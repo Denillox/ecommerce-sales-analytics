@@ -1,7 +1,4 @@
 from faker import Faker
-import pyodbc
-from dotenv import load_dotenv
-import os
 import pandas as pd
 import random
 
@@ -85,7 +82,6 @@ dim_date['weekday_number'] = all_dates.dt.dayofweek + 1
 
 dim_date.to_csv('data/raw/dim_date.csv', index=False)
 print('Dim date saved as CSV')
-print(dim_date.head())
 
 
 ### Creation of the fact table
@@ -111,7 +107,7 @@ for i in range(10000):
         'orders_id': order_id,
         'customer_id': customer_id,
         'product_id': product_id,
-        'date_id': date_id
+        'date_id': date_id,
         'quantity': quantity,
         'unit_price': unit_price,
         'total_amount': round(quantity * unit_price, 2)
@@ -120,5 +116,3 @@ for i in range(10000):
 fact_df = pd.DataFrame(fact_ordereditem)
 fact_df.to_csv('data/raw/fact_ordereditem.csv', index=False)
 print('Fact table saved as CSV')
-
-print(fact_df.head())
