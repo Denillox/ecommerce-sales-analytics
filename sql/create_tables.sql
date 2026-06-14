@@ -15,13 +15,13 @@ CREATE TABLE dim_orders(
 
 CREATE TABLE dim_customer(
     customer_id INT PRIMARY KEY,
-    first_name NVARCHAR(30) NOT NULL,
-    last_name NVARCHAR(30) NOT NULL,
-    email NVARCHAR(40) NOT NULL,
-    address NVARCHAR(60) NOT NULL,
-    country NVARCHAR(30) NOT NULL,
-    phone_number NVARCHAR(20),
-    city NVARCHAR(30),
+    first_name NVARCHAR(50) NOT NULL,
+    last_name NVARCHAR(50) NOT NULL,
+    email NVARCHAR(100) NOT NULL,
+    address NVARCHAR(100) NOT NULL,
+    country NVARCHAR(100) NOT NULL,
+    phone_number NVARCHAR(50),
+    city NVARCHAR(100),
     signup_date DATE
 );
 
