@@ -1,15 +1,8 @@
-Welcome to your new dbt project!
+# E-commerce dbt Project
 
-### Using the starter project
+This dbt project transforms raw e-commerce data loaded into Azure SQL Database
+into clean staging models and analytical mart models for Power BI reporting.
 
-Try running the following commands:
-- dbt run
-- dbt test
-
-
-### Resources:
-- Learn more about dbt [in the docs](https://docs.getdbt.com/docs/introduction)
-- Check out [Discourse](https://discourse.getdbt.com/) for commonly asked questions and answers
-- Join the [chat](https://community.getdbt.com/) on Slack for live discussions and support
-- Find [dbt events](https://events.getdbt.com) near you
-- Check out [the blog](https://blog.getdbt.com/) for the latest news on dbt's development and best practices
+## Structure
+- **models/staging/** — cleaned and standardized source tables
+- **models/marts/** — business logic, joins and aggregations for analysis
