@@ -1,0 +1,2 @@
+ecommerce_dbt/models/**/*.sql linguist-detectable=true
+ecommerce_dbt/models/**/*.sql linguist-language=SQL
