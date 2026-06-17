@@ -148,7 +148,7 @@ Key insights:
 * Revenue remains relatively stable throughout the year
 * Average order value exceeds $1,000
 
-![Sales Overview](docs/screenshots/ReportPage1.png)
+![Sales Overview](docs/ReportPage1.png)
 
 ---
 
@@ -162,7 +162,7 @@ Key insights:
 * Customer segments reveal differences between regular, occasional and loyal buyers
 * Customer value varies considerably across countries
 
-![Customer Analysis](docs/screenshots/ReportPage2.png)
+![Customer Analysis](docs/ReportPage2.png)
 
 ---
 
@@ -176,7 +176,7 @@ Key insights:
 * Revenue contribution differs significantly across categories
 * Revenue efficiency highlights categories that outperform their sales volume
 
-![Product Performance Analysis](docs/screenshots/ReportPage3.png)
+![Product Performance Analysis](docs/ReportPage3.png)
 
 ---
 
