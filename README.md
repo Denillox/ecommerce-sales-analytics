@@ -200,36 +200,6 @@ Business-ready analytical datasets used by Power BI.
 
 ---
 
-## Skills Demonstrated
-
-### Data Engineering
-* Cloud storage using Azure Blob Storage
-* Data loading into Azure SQL Database
-* Environment variable management
-* ETL/ELT pipeline development
-
-### SQL & Data Modeling
-* Star schema design
-* Joins and aggregations
-* Analytical SQL queries
-* Window functions
-* Common Table Expressions (CTEs)
-
-### dbt
-* Staging models
-* Mart models
-* Data transformation workflows
-* Data quality validation
-
-### Business Intelligence
-* DAX measures
-* KPI design
-* Customer segmentation
-* Product performance analysis
-* Interactive dashboard development
-
----
-
 ## Key Learnings
 
 This project was built to strengthen my understanding of modern cloud-based analytics workflows.
